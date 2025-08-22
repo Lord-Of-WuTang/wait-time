@@ -32,7 +32,8 @@ This project simulates realistic customer service scenarios by modeling queue be
 - **Arrival Rate**: 0.2 customers/minute (5-minute average intervals)
 - **Service Rate**: 0.3 services/minute (3.33-minute average service time)
 - **Distribution Model**: Exponential distributions for both arrivals and service times
-- **Customer Pool**: 8 Nigerian names (Aanu, Tunde, Chioma, Bola, Emeka, Zainab, Ifeanyi, Ngozi)
+- ** Using a FIFO Model**
+- **Customer Pool**: 8 Nigerian names (Tunde, Chioma, Bola, Emeka, Zainab, Ifeanyi, Ngozi)
 
 ### Queue Mechanics
 - First-come, first-served (FCFS) scheduling
@@ -128,5 +129,6 @@ The simulation framework is designed for expansion:
 This simulation provides a foundation for queue theory research and practical applications in service optimization. Extensions and improvements are welcome, particularly in areas of multi-server modeling and real-world validation.
 
 ---
+
 
 *Note: This simulation uses exponential distributions which are standard in queueing theory but may need adjustment for specific real-world scenarios. Consider validating parameters against actual service data for production use.*
