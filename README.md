@@ -6,7 +6,7 @@ A comprehensive customer wait time simulation system for single-server queue ana
 
 This is a project that simulates realistic customer service scenarios by modeling queue behavior with exponentially distributed arrival and service times. The simulation generates detailed analytics on customer wait times, service patterns, and queue performance metrics.
 
-## Features
+## feature
 
 ### Core Simulation Engine
 - **Queue Modeling**: Single-server queue system with exponential arrival and service distributions
@@ -132,4 +132,5 @@ This simulation provides a foundation for queue theory research and practical ap
 
 
 *Note: This simulation uses exponential distributions which are standard in queueing theory but may need adjustment for specific real-world scenarios. Consider validating parameters against actual service data for production use.*
+
 
